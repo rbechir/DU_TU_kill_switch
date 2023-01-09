@@ -8,7 +8,7 @@ Script permettant de démarrer/arrêter plusieurs TUs à l'aide d'un seul bouton
 - 1 Databank
 - 1 Light : n'importe quel type de lumière fait l'affaire
 ### Ordre de connexion
-Coller le contenu du fichier code.json dans les PBs.  
+Coller le contenu du fichier code.json dans les PBs (clic droit > Advanced > Paste Lua configuration from clipboard).  
 Il est indispensable de suivre l'ordre de connexion pour que le script fonctionne bien.
 - Connecter tous les PBs au Databank
 - Connecter le PB master à la Light
@@ -16,7 +16,7 @@ Il est indispensable de suivre l'ordre de connexion pour que le script fonctionn
 - Connecter le Button au Relay
 - Connecter le Relay aux PBs
 ### Initialisation
-Accéder aux variables LUA sur les différents PBs :
+Accéder aux variables LUA sur les différents PBs (clic droit > Advanced > Edit LUA parameters):
 - S'assurer que seul le PB master a la case "master" cochée
 - Entrer les maintain des différents TUs connectés (en suivant l'ordre de connexion noté précédemment)
 ## Utilisation
